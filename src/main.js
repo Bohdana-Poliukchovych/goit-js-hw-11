@@ -50,7 +50,7 @@ function onSearch(event) {
         })
         .finally(() => {
             hideLoader();
-            form.requestFullscreen();
+            form.reset();
         });
 }
          
